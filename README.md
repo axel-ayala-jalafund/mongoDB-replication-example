@@ -16,7 +16,7 @@ Un replica set típico consta de:
 2. **Múltiples nodos secundarios (Secondary)**: Estos nodos mantienen copias de los datos del nodo primario. Los secundarios replican los datos del primario aplicando las mismas operaciones que se realizaron en el primario.
 3. **Opcionalmente, un árbitro (Arbiter)**: Este es un nodo especial que no contiene datos, pero participa en las elecciones para determinar qué nodo secundario debe convertirse en primario si el primario actual falla.
 
-![alt text](image.png)
+![alt text](/resources/image.png)
 
 ### ¿Cómo funciona la replicación?
 
